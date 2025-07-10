@@ -61,7 +61,7 @@ function EmployeeComponent() {
           });
       }
 
-      navigate("/ems-frontend/", { state: { shouldReload: true } });
+      navigate("/", { state: { shouldReload: true } });
     }
   }
 

@@ -24,11 +24,11 @@ function ListEmployeeComponent() {
   }
 
   function addNewEmployee() {
-    navigate("/ems-frontend/add-employee");
+    navigate("/add-employee");
   }
 
   function updateEmployee(employeeId) {
-    navigate(`/ems-frontend/update-employee/${employeeId}`);
+    navigate(`/update-employee/${employeeId}`);
   }
 
   function removeEmployee(employeeId) {
@@ -41,7 +41,7 @@ function ListEmployeeComponent() {
       .catch((error) => {
         console.log(error);
       });
-    navigate("/ems-frontend/employees");
+    navigate("/employees");
   }
 
   return (
