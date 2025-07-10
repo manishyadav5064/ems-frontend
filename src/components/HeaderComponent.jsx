@@ -6,7 +6,7 @@ function HeaderComponent() {
       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
         <a
           className="navbar-brand text-white container-fluid"
-          href="http://localhost:3000/"
+          href="https://manishyadav5064.github.io/ems-frontend/"
         >
           Employee Management System
         </a>

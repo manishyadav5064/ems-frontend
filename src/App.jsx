@@ -11,13 +11,13 @@ function App() {
         <HeaderComponent />
         <Routes>
           {/* http://localhost:3000 */}
-          <Route path="/" element={<ListEmployeeComponent />} />
+          <Route path="/ems-frontend/" element={<ListEmployeeComponent />} />
           {/* http://localhost:3000/employees */}
-          <Route path="/employees" element={<ListEmployeeComponent />} />
+          <Route path="/ems-frontend/employees" element={<ListEmployeeComponent />} />
           {/* http://localhost:3000/add-employee */}
-          <Route path="/add-employee" element={<EmployeeComponent />} />
+          <Route path="/ems-frontend/add-employee" element={<EmployeeComponent />} />
           {/* http://localhost:3000/update-employee/2 */}
-          <Route path="/update-employee/:id" element={<EmployeeComponent />} />
+          <Route path="/ems-frontend/update-employee/:id" element={<EmployeeComponent />} />
         </Routes>
         <FooterComponent />
       </BrowserRouter>

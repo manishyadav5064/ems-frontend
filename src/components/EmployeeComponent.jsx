@@ -61,7 +61,7 @@ function EmployeeComponent() {
           });
       }
 
-      navigate("/", { state: { shouldReload: true } });
+      navigate("/ems-frontend/", { state: { shouldReload: true } });
     }
   }
 
@@ -155,7 +155,7 @@ function EmployeeComponent() {
                   <button
                     className="btn btn-dark w-100"
                     type="button"
-                    onClick={() => navigate("/")}
+                    onClick={() => navigate("/ems-frontend/")}
                   >
                     Cancel
                   </button>
